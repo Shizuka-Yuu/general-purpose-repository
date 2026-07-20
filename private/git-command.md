@@ -2,14 +2,16 @@
 
 #### 1. 初期化とコミット
 ```
-bashgit init
+bash
+git init
 git add .
 git commit -m "Initial commit"
 ```
 
 #### 2. リモートリポジトリの登録とプッシュ
 ```
-bashgit remote add origin https://github.com
+bash
+git remote add origin https://github.com
 git branch -M main
 git push -u origin main
 ```
